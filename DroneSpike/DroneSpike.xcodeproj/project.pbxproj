@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF6988E1ADC56A5003A35BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6988D1ADC56A5003A35BD /* main.m */; };
+		FFF698911ADC56A5003A35BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF698901ADC56A5003A35BD /* AppDelegate.m */; };
+		FFF698941ADC56A5003A35BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF698931ADC56A5003A35BD /* ViewController.m */; };
+		FFF698971ADC56A5003A35BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF698951ADC56A5003A35BD /* Main.storyboard */; };
+		FFF698991ADC56A6003A35BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF698981ADC56A6003A35BD /* Images.xcassets */; };
+		FFF6989C1ADC56A6003A35BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFF6989A1ADC56A6003A35BD /* LaunchScreen.xib */; };
+		FFF698A81ADC56A6003A35BD /* DroneSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF698A71ADC56A6003A35BD /* DroneSpikeTests.m */; };
+		FFF698B21ADC57AC003A35BD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF698B11ADC57AC003A35BD /* CoreMotion.framework */; };
+		FFF698B41ADC5A74003A35BD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF698B31ADC5A74003A35BD /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF698A21ADC56A6003A35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF698801ADC56A5003A35BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF698871ADC56A5003A35BD;
+			remoteInfo = DroneSpike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF698881ADC56A5003A35BD /* DroneSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF6988C1ADC56A5003A35BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF6988D1ADC56A5003A35BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFF6988F1ADC56A5003A35BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFF698901ADC56A5003A35BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFF698921ADC56A5003A35BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFF698931ADC56A5003A35BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFF698961ADC56A5003A35BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF698981ADC56A6003A35BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFF6989B1ADC56A6003A35BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFF698A11ADC56A6003A35BD /* DroneSpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneSpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF698A61ADC56A6003A35BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF698A71ADC56A6003A35BD /* DroneSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneSpikeTests.m; sourceTree = "<group>"; };
+		FFF698B11ADC57AC003A35BD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FFF698B31ADC5A74003A35BD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF698851ADC56A5003A35BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF698B41ADC5A74003A35BD /* CoreBluetooth.framework in Frameworks */,
+				FFF698B21ADC57AC003A35BD /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF6989E1ADC56A6003A35BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF6987F1ADC56A5003A35BD = {
+			isa = PBXGroup;
+			children = (
+				FFF698B31ADC5A74003A35BD /* CoreBluetooth.framework */,
+				FFF698B11ADC57AC003A35BD /* CoreMotion.framework */,
+				FFF6988A1ADC56A5003A35BD /* DroneSpike */,
+				FFF698A41ADC56A6003A35BD /* DroneSpikeTests */,
+				FFF698891ADC56A5003A35BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF698891ADC56A5003A35BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF698881ADC56A5003A35BD /* DroneSpike.app */,
+				FFF698A11ADC56A6003A35BD /* DroneSpikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF6988A1ADC56A5003A35BD /* DroneSpike */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6988F1ADC56A5003A35BD /* AppDelegate.h */,
+				FFF698901ADC56A5003A35BD /* AppDelegate.m */,
+				FFF698921ADC56A5003A35BD /* ViewController.h */,
+				FFF698931ADC56A5003A35BD /* ViewController.m */,
+				FFF698951ADC56A5003A35BD /* Main.storyboard */,
+				FFF698981ADC56A6003A35BD /* Images.xcassets */,
+				FFF6989A1ADC56A6003A35BD /* LaunchScreen.xib */,
+				FFF6988B1ADC56A5003A35BD /* Supporting Files */,
+			);
+			path = DroneSpike;
+			sourceTree = "<group>";
+		};
+		FFF6988B1ADC56A5003A35BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6988C1ADC56A5003A35BD /* Info.plist */,
+				FFF6988D1ADC56A5003A35BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF698A41ADC56A6003A35BD /* DroneSpikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF698A71ADC56A6003A35BD /* DroneSpikeTests.m */,
+				FFF698A51ADC56A6003A35BD /* Supporting Files */,
+			);
+			path = DroneSpikeTests;
+			sourceTree = "<group>";
+		};
+		FFF698A51ADC56A6003A35BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF698A61ADC56A6003A35BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF698871ADC56A5003A35BD /* DroneSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF698AB1ADC56A6003A35BD /* Build configuration list for PBXNativeTarget "DroneSpike" */;
+			buildPhases = (
+				FFF698841ADC56A5003A35BD /* Sources */,
+				FFF698851ADC56A5003A35BD /* Frameworks */,
+				FFF698861ADC56A5003A35BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneSpike;
+			productName = DroneSpike;
+			productReference = FFF698881ADC56A5003A35BD /* DroneSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF698A01ADC56A6003A35BD /* DroneSpikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF698AE1ADC56A6003A35BD /* Build configuration list for PBXNativeTarget "DroneSpikeTests" */;
+			buildPhases = (
+				FFF6989D1ADC56A6003A35BD /* Sources */,
+				FFF6989E1ADC56A6003A35BD /* Frameworks */,
+				FFF6989F1ADC56A6003A35BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF698A31ADC56A6003A35BD /* PBXTargetDependency */,
+			);
+			name = DroneSpikeTests;
+			productName = DroneSpikeTests;
+			productReference = FFF698A11ADC56A6003A35BD /* DroneSpikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF698801ADC56A5003A35BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Francisco J. Belchi";
+				TargetAttributes = {
+					FFF698871ADC56A5003A35BD = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FFF698A01ADC56A6003A35BD = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FFF698871ADC56A5003A35BD;
+					};
+				};
+			};
+			buildConfigurationList = FFF698831ADC56A5003A35BD /* Build configuration list for PBXProject "DroneSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF6987F1ADC56A5003A35BD;
+			productRefGroup = FFF698891ADC56A5003A35BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF698871ADC56A5003A35BD /* DroneSpike */,
+				FFF698A01ADC56A6003A35BD /* DroneSpikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF698861ADC56A5003A35BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF698971ADC56A5003A35BD /* Main.storyboard in Resources */,
+				FFF6989C1ADC56A6003A35BD /* LaunchScreen.xib in Resources */,
+				FFF698991ADC56A6003A35BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF6989F1ADC56A6003A35BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF698841ADC56A5003A35BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF698941ADC56A5003A35BD /* ViewController.m in Sources */,
+				FFF698911ADC56A5003A35BD /* AppDelegate.m in Sources */,
+				FFF6988E1ADC56A5003A35BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF6989D1ADC56A6003A35BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF698A81ADC56A6003A35BD /* DroneSpikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF698A31ADC56A6003A35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF698871ADC56A5003A35BD /* DroneSpike */;
+			targetProxy = FFF698A21ADC56A6003A35BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF698951ADC56A5003A35BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF698961ADC56A5003A35BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF6989A1ADC56A6003A35BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF6989B1ADC56A6003A35BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF698A91ADC56A6003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF698AA1ADC56A6003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF698AC1ADC56A6003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF698AD1ADC56A6003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFF698AF1ADC56A6003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroneSpikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneSpike.app/DroneSpike";
+			};
+			name = Debug;
+		};
+		FFF698B01ADC56A6003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroneSpikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneSpike.app/DroneSpike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF698831ADC56A5003A35BD /* Build configuration list for PBXProject "DroneSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF698A91ADC56A6003A35BD /* Debug */,
+				FFF698AA1ADC56A6003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF698AB1ADC56A6003A35BD /* Build configuration list for PBXNativeTarget "DroneSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF698AC1ADC56A6003A35BD /* Debug */,
+				FFF698AD1ADC56A6003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF698AE1ADC56A6003A35BD /* Build configuration list for PBXNativeTarget "DroneSpikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF698AF1ADC56A6003A35BD /* Debug */,
+				FFF698B01ADC56A6003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF698801ADC56A5003A35BD /* Project object */;
+}
